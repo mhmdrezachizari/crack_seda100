@@ -44,7 +44,7 @@ try:
         else:
             print("خطا در ارسال درخواست:", response_post.status_code)
         
-        time.sleep(0.1)
+        time.sleep(0.7)
 
 except KeyboardInterrupt:
     print("برنامه متوقف شد!")
